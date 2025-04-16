@@ -1,0 +1,68 @@
+/* Packages.css */
+
+.service-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 30px 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+  border: 1px solid rgba(128, 128, 128, 0.405) !important;
+  text-align: center;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+}
+
+.icon-wrapper {
+
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px auto;
+  transition: transform 0.4s ease, box-shadow 0.4s ease, background 0.4s ease;
+}
+
+
+.service-card:hover .icon-wrapper {
+  transform: translateY(-4px) scale(1.05);
+}
+
+.service-card:hover .icon-wrapper svg {
+  transform: rotate(10deg) scale(1.1);
+  color: #e38b00;
+}
+
+.service-card h5 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.service-card a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+.service-card a:hover {
+  color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .icon-wrapper {
+    margin: 0 auto 20px auto;
+  }
+
+  .text-start {
+    text-align: center !important;
+  }
+}
