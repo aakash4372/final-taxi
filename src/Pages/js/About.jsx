@@ -18,7 +18,7 @@ const About = () => {
         <Row className="align-items-center">
           <Col md={12} lg={7}>
             <h2 className="mb-4 text-uppercase section-titles">About Us</h2>
-            <h2 className="mb-4 section-title">One Way Drop Taxi Salem</h2>
+            <h2 className="mb-4 section-title"><span className="text-[#e38b00]">One</span> Way Drop Taxi Salem</h2>
             <p className="section-text">
               Looking for a reliable one way drop taxi in Salem? We offer
               comfortable and affordable one-way and round trip taxi services

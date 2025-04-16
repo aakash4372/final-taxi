@@ -77,7 +77,7 @@ const ReviewSlider = () => {
                     />
                     <div className="text-center mt-1">
                       <h5 className="reviewer-name mb-1">{review.name}</h5>
-                      <p className="reviewer-position text-muted">{review.position}</p>
+
                     </div>
                   </div>
                 </div>
