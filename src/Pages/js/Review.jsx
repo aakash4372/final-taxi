@@ -9,33 +9,41 @@ const ReviewSlider = () => {
   const reviews = [
     {
       id: 1,
-      name: "John Doe",
-      position: "Software Engineer",
-      review: "This product completely transformed my workflow. The ease of use and powerful features are unmatched in the market.",
-      avatar: "https://randomuser.me/api/portraits/men/1.jpg"
+      name: "Sriram",
+      review:
+        "I have booked a Sedan Cab in one way drop taxi salem they send me a neat and clean car with polite driver. Really enjoyed the ride.",
+      avatar: "/img/review/r1.jpg",
     },
     {
       id: 2,
-      name: "Jane Smith",
-      position: "UX Designer",
-      review: "I've tried many similar tools, but none come close to the intuitive interface and robust functionality offered here.",
-      avatar: "https://randomuser.me/api/portraits/women/1.jpg"
+      name: "Parthasarathy",
+      review:
+        "In an emergency situation I have booked a cab they responded very well and I reached my destination on time.",
+      avatar: "/img/review/r2.jpg",
     },
     {
       id: 3,
-      name: "Michael Johnson",
-      position: "Product Manager",
-      review: "Our team's productivity increased by 40% after implementing this solution. Highly recommended for any business.",
-      avatar: "https://randomuser.me/api/portraits/men/2.jpg"
+      name: "Karthik",
+      review:
+        "Booked a cab from One Way Drop Taxi Salem at the last minute. The car was in perfect condition and the driver was very professional. Excellent service!",
+      avatar: "/img/review/r3.jpg",
     },
     {
       id: 4,
-      name: "Emily Davis",
-      position: "Marketing Director",
-      review: "The customer support is exceptional. They went above and beyond to help us integrate with our existing systems.",
-      avatar: "https://randomuser.me/api/portraits/women/2.jpg"
+      name: "Vignesh",
+      review:
+        "Clean cab, polite driver, and timely service. Overall a very good experience with One Way Drop Taxi Salem.",
+      avatar: "/img/review/r4.jpg",
+    },
+    {
+      id: 5,
+      name: "Priya",
+      review:
+        "Used the service during a family emergency. They responded quickly and ensured I reached on time. Thank you!",
+      avatar: "/img/review/r5.jpg",
     },
   ];
+  
 
   const nextReview = () => {
     setCurrentIndex((prevIndex) => 

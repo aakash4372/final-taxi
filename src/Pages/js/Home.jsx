@@ -9,7 +9,7 @@ const HomePage = () => {
     <div className="homepage-container" id="home">
       <div className="overlay">
         <div className="content mt-28 text-center text-white">
-          <h1 className="display-5 fw-bold mb-4">One Way Drop Taxi Salem</h1>
+          <h1 className="display-5 fw-bold mb-4 orange-shadow">One Way Drop Taxi Salem</h1>
           <p className="lead mb-4">
             <strong>One way drop taxi salem</strong> provides outstation one way
             drop and round trip taxi in Salem and all over Tamil Nadu and Bangalore.

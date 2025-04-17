@@ -4,34 +4,34 @@ import '../css/Service_car.css';
 
 const services = [
   {
-    title: "Hatcpack Ac 4+1",
-    img: "/img/car2.png",
-    hoverImg: "/img/car1.png",
-    oneway: "14 Rs Per Km",
+    title: "Hatchback Ac 4+1",
+    img: "/img/11.png",
+    hoverImg: "/img/12.png",
+    oneway: "13 Rs Per Km",
     roundTrip: "12 Rs Per Km",
   },
   {
     title: "Sedan Ac 4+1",
-    img: "/img/12.png",
-    hoverImg: "/img/13.png",
+    img: "/img/13.png",
+    hoverImg: "/img/14.png",
     oneway: "14 Rs Per Km",
     roundTrip: "13 Rs Per Km",
   },
   {
     title: "SUV Ac 7+1",
-    img: "/img/14.png",
-    hoverImg: "/img/15.png",
+    img: "/img/15.png",
+    hoverImg: "/img/16.png",
     oneway: "19 Rs Per Km",
-    roundTrip: "18 Rs Per Km",
+    roundTrip: "17 Rs Per Km",
   },
 ];
 
 const Service_car = () => {
   return (
-    <div className="service-section" id="services">
+    <div className="service-section" id="tariff">
       <Container>
         <h2 className="text-center text-uppercase text-white mb-5 pt-5 fw-bold display-6 display-md-5 display-lg-4">
-          Services
+          tariff
         </h2>
         <Row>
           {services.map((service, index) => (
@@ -62,7 +62,7 @@ const Service_car = () => {
                     rel="noopener noreferrer" 
                     className="estimate-link"
                   >
-                    Get Estimate & Booking 
+                    Get Estimate & Book 
                   </a>
                 </Card.Body>
               </Card>

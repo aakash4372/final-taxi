@@ -23,6 +23,7 @@ const NavbarSection = () => {
     { name: 'Home', href: '#home' },
     { name: 'About', href: '#about' },
     { name: 'Services', href: '#services' },
+    { name: 'Tariff', href: '#tariff' },
     { name: 'Reviews', href: '#reviews' },
     { name: 'Why Choose', href: '#why-choose' },
     { name: 'Contact', href: '#contact' },

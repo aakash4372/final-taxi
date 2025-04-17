@@ -25,7 +25,10 @@ const services = [
 
 const ServiceCards = () => {
   return (
-    <Container className="py-5">
+    <Container className="py-5" id='services'>
+      <h2 className="text-center text-[#2c3e50] text-uppercase mb-5 fw-bold display-6 display-md-5 display-lg-4">
+      Services
+      </h2>
       <Row className="g-4">
         {services.map((service, index) => (
           <Col key={index} xs={12} md={4} className="text-center">
@@ -35,7 +38,7 @@ const ServiceCards = () => {
               </div>
               <h5>{service.title}</h5>
               <a href={service.link} className="text-primary fw-semibold" target="_blank" rel="noopener noreferrer">
-                Get Estimate & Booking. <span role="img" aria-label="pointer">👈</span>
+                Get Estimate & Book <span role="img" aria-label="pointer">👈</span>
               </a>
             </Card>
           </Col>
