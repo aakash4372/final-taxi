@@ -23,7 +23,7 @@ const ReviewSlider = () => {
     },
     {
       id: 3,
-      name: "Karthik",
+      name: "Karthiga",
       review:
         "Booked a cab from One Way Drop Taxi Salem at the last minute. The car was in perfect condition and the driver was very professional. Excellent service!",
       avatar: "/img/review/r3.jpg",
